@@ -36,8 +36,8 @@
           $mail->SMTPAuth=true;
           $mail->SMTPSecure='tls';
 
-          $mail->Username='email.verfi@gmail.com';
-          $mail->Password='Pass@123';
+          $mail->Username='';//enter your gmail id and password here
+          $mail->Password='';//
 
            $mail->setFrom('email.verfi@gmail.com','E-wallet');
           $mail->addAddress($email);
